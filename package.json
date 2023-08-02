@@ -2,16 +2,15 @@
   "name": "excel2json",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.ts",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsc -w"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.4.5",
-    "typescript": "^5.1.6"
+  "dependencies": {
+    "read-excel-file": "^5.6.1"
   }
 }
