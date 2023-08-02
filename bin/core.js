@@ -44,8 +44,6 @@ export async function xlsToJson(
       };
     });
 
-    console.log("schema", schema);
-
     const { rows } = ConvertToJson(fileData, schema);
     // 空值处理
     const jsonData = rows.map((row) => Object.assign({}, emptyItem, row));

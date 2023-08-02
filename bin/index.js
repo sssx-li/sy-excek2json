@@ -20,5 +20,10 @@ if (!program.args.length) {
   if (!outputFilePath) {
     throw new Error("请输入文件输出路径");
   }
-  xlsToJson(filePath, outputFilePath, keys.split(","), types.split(","));
+  xlsToJson(
+    filePath,
+    outputFilePath,
+    keys ? keys.split(",") : [],
+    types ? types.split(",") : []
+  );
 }
