@@ -9,6 +9,11 @@ dependencies:
     specifier: ^5.6.1
     version: 5.6.1
 
+devDependencies:
+  commander:
+    specifier: ^11.0.0
+    version: 11.0.0
+
 packages:
 
   /@xmldom/xmldom@0.8.10:
@@ -58,6 +63,11 @@ packages:
     dependencies:
       traverse: 0.3.9
     dev: false
+
+  /commander@11.0.0:
+    resolution: {integrity: sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ==}
+    engines: {node: '>=16'}
+    dev: true
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}

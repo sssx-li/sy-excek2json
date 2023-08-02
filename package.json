@@ -1,16 +1,23 @@
 {
-  "name": "excel2json",
+  "name": "sy-excel2json",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "excel to json",
+  "main": "/bin/index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "e2j": "bin/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "excel",
+    "json",
+    "excel2json"
+  ],
+  "author": "lizhiquan",
+  "license": "MIT",
   "dependencies": {
     "read-excel-file": "^5.6.1"
+  },
+  "devDependencies": {
+    "commander": "^11.0.0"
   }
 }
