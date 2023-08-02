@@ -12,6 +12,14 @@
     "json",
     "excel2json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sssx-li/sy-excel2json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sssx-li/sy-excel2json/issues"
+  },
+  "homepage": "https://github.com/sssx-li/sy-excel2json#readme",
   "author": "lizhiquan",
   "license": "MIT",
   "dependencies": {
