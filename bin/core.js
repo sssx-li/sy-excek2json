@@ -50,7 +50,7 @@ export async function xlsToJson(
       ? outputFilePath
       : `${outputFilePath}.json`;
     fs.writeFile(
-      path.resolve(process.env.PWD, fileName),
+      path.resolve(process.cwd(), fileName),
       JSON.stringify(jsonData),
       "utf-8",
       (err) => {
