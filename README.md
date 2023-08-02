@@ -25,9 +25,9 @@ filePath: 表示要转换的 .xlsx 文件路径
 
 outputPath 表示转换后的 .json 文件路径
 
-key 表示要列名转换后的键
+key 表示表头(列名)转换后的键
 
-type 表示要列转换后的类型
+type 表示列转换后值的类型
   type的可选类型为: string | number | boolean | date
 ```
 

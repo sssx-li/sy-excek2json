@@ -1,6 +1,6 @@
 {
   "name": "sy-excel2json",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "excel to json",
   "main": "/bin/index.js",
   "type": "module",
