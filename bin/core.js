@@ -1,9 +1,7 @@
 import readXlsxFile from "read-excel-file/node";
 import ConvertToJson from "read-excel-file/schema";
 import fs from "fs";
-import path, { dirname } from "path";
-import { fileURLToPath } from "url";
-const __dirname = dirname(fileURLToPath(import.meta.url));
+import path from "path";
 
 const valueTypeMaps = new Map([
   ["string", String],
@@ -52,7 +50,7 @@ export async function xlsToJson(
       ? outputFilePath
       : `${outputFilePath}.json`;
     fs.writeFile(
-      path.resolve(__dirname, "..", fileName),
+      path.resolve(process.env.PWD, fileName),
       JSON.stringify(jsonData),
       "utf-8",
       (err) => {
