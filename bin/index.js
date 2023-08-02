@@ -15,7 +15,8 @@ program.parse(process.argv);
 if (!program.args.length) {
   program.help();
 } else {
-  const [filePath, outputFilePath, keys, types] = process.argv.slice(2);
+  const [filePath, outputFilePath, keys = "", types = ""] =
+    process.argv.slice(2);
   if (!outputFilePath) {
     throw new Error("请输入文件输出路径");
   }
