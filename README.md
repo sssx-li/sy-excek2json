@@ -68,7 +68,6 @@ sy-e2j ./test.xlsx base.json object
     "tip": {
       "success": "成功"
     },
-    "total": "1"
   },
   "English": {
     "title": "Title",
@@ -132,7 +131,8 @@ sy-e2j ./test.xlsx base object key,zh_CN,EN
 ```
 
 3. 使用自定义类型
-``` 若类型无法转为Number, 则为空字符串 ```
+``` 若值类型为Number且该值无法转为Number时, 则为空字符串 ```   
+
 | index | value |
 | :---- | ----: |
 | 1     |    11 |
