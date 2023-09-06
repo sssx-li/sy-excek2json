@@ -1,0 +1,37 @@
+[
+  {
+    "key": "title",
+    "zh_CH": "管理系统",
+    "en": "Manager System"
+  },
+  {
+    "key": "login.signin",
+    "zh_CH": "登录",
+    "en": "Sign in"
+  },
+  {
+    "key": "login.account",
+    "zh_CH": "账号",
+    "en": "Account"
+  },
+  {
+    "key": "login.password",
+    "zh_CH": "密码",
+    "en": "Password"
+  },
+  {
+    "key": "table.dialog.ok",
+    "zh_CH": "确认",
+    "en": "OK"
+  },
+  {
+    "key": "tips.fail",
+    "zh_CH": "失败",
+    "en": "Fail"
+  },
+  {
+    "key": "tips.success",
+    "zh_CH": "成功",
+    "en": "Success"
+  }
+]

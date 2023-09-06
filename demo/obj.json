@@ -1,0 +1,36 @@
+{
+  "zh_CH": {
+    "title": "管理系统",
+    "login": {
+      "signin": "登录",
+      "account": "账号",
+      "password": "密码"
+    },
+    "table": {
+      "dialog": {
+        "ok": "确认"
+      }
+    },
+    "tips": {
+      "fail": "失败",
+      "success": "成功"
+    }
+  },
+  "en": {
+    "title": "Manager System",
+    "login": {
+      "signin": "Sign in",
+      "account": "Account",
+      "password": "Password"
+    },
+    "table": {
+      "dialog": {
+        "ok": "OK"
+      }
+    },
+    "tips": {
+      "fail": "Fail",
+      "success": "Success"
+    }
+  }
+}
