@@ -20,7 +20,7 @@ npm i sy-excel2json -g
 ``` outputType为object时，表格第一列用于生成对象的键，剩下的列用于生成值  ```
 
 ```base
-e2j filePath outputPath outputType [key1,key2...] [type1,type2,...]
+sy-e2j filePath outputPath outputType [key1,key2...] [type1,type2,...]
 
 filePath: 表示要转换的 .xlsx 文件路径
 
