@@ -1,11 +1,11 @@
 {
   "name": "sy-excel2json",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "excel to json",
   "main": "/bin/index.js",
   "type": "module",
   "bin": {
-    "e2j": "bin/index.js"
+    "sy-e2j": "bin/index.js"
   },
   "keywords": [
     "excel",
